@@ -92,7 +92,7 @@ public class Main {
             if (list.get(i).name.compareTo(list.get(i + 1).name) == 0 && list.get(i).role.compareTo(list.get(i + 1).role) > 0) {
                 change(i, i + 1);
             }
-
+        System.out.println();
     }
 
     private static void sortByProject() {
